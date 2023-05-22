@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="新建文件夹" />
+        <module name="SpringBoot2-Learn-Record" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot2-Learn-Record" options="-parameters" />
       <module name="新建文件夹" options="-parameters" />
     </option>
   </component>
